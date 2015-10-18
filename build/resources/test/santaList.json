@@ -1,0 +1,84 @@
+[{
+	"giver": {
+		"firstName": "Joe",
+		"lastName": "Doe",
+		"facebookId": "joe.doe"
+	},
+	"exclusions": [{
+		"value": "Doe",
+		"evaluator": "NOTEQUALS",
+		"object": "lastName"
+	},
+	{
+		"value": "Joe",
+		"evaluator": "NOTEQUALS",
+		"object": "firstName"
+	}],
+	"receiver": {
+		
+	},
+	"hasGiver": false
+},
+{
+	"giver": {
+		"firstName": "Jane",
+		"lastName": "Doe",
+		"facebookId": "jane.doe"
+	},
+	"exclusions": [{
+		"value": "Doe",
+		"evaluator": "NOTEQUALS",
+		"object": "lastName"
+	},
+	{
+		"value": "Jane",
+		"evaluator": "NOTEQUALS",
+		"object": "firstName"
+	}],
+	"receiver": {
+		
+	},
+	"hasGiver": false
+},
+{
+	"giver": {
+		"firstName": "Edward",
+		"lastName": "Howard",
+		"facebookId": "jane.doe"
+	},
+	"exclusions": [{
+		"value": "Howard",
+		"evaluator": "NOTEQUALS",
+		"object": "lastName"
+	},
+	{
+		"value": "Edward",
+		"evaluator": "NOTEQUALS",
+		"object": "firstName"
+	}],
+	"receiver": {
+		
+	},
+	"hasGiver": false
+},
+{
+	"giver": {
+		"firstName": "Janet",
+		"lastName": "Howard",
+		"facebookId": "jane.doe"
+	},
+	"exclusions": [{
+		"value": "Howard",
+		"evaluator": "NOTEQUALS",
+		"object": "lastName"
+	},
+	{
+		"value": "Janet",
+		"evaluator": "NOTEQUALS",
+		"object": "firstName"
+	}],
+	"receiver": {
+		
+	},
+	"hasGiver": false
+}]
